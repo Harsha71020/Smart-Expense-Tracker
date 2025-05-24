@@ -1,0 +1,16 @@
+
+body[data-theme="dark"] {
+    background-color: #121212;
+    color: white;
+}
+body[data-theme="light"] {
+    background-color: #f4f4f4;
+    color: black;
+}
+.card {
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.03);
+}
